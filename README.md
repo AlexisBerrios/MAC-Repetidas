@@ -1,3 +1,3 @@
 # MAC-Repetidas
-Derivado del conflicto con CoA (Change of Authorization) con ISE Cisco en multiples SEDES de BBVA Bancomer, se requiere encontrar equipos que aun pasando tiempo siga persisitiendo este problema en ellos
-hola
+Derivado del conflicto con CoA (Change of Authorization) con ISE Cisco, ocasiona que algunos equipos que sin razón aparente no puedan conectarse a la RED LAN en multiples SEDES de BBVA Bancomer.
+Se requiere encontrar equipos que aun pasando tiempo siga persisitiendo este problema en ellos. ISE permite obtener las direcciones MAC de los equipos con este conflicto por día, como parte del proceso de investigación de los sintomas de este problema, se necesita saber si hay algún patron persistente en los equipos que presentan este problema, así que una vez obtenida la mac-address de los equipos con este problema en diferentes fechas, se filtrara con este programa si existe algún equipo que persiste con el problema tras el paso de los días, semanas o meses, para posterior poder rastrear su ubicación e investigar si tiene algo en particular que lo diferencia de los demás.
